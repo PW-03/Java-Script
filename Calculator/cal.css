@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.display{
+    border-style:ridge;
+    background-image: url("blk.jpg");
+    border-color: black;
+    padding-top: 0.75%;
+    padding-bottom: 1.25%;
+    height: 60%;
+    width: 26%;
+    background-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+    border-width: 2px;
+    color: antiquewhite;
+    /* font-family:'Roboto',sans-serif; */
+}
+.CT{
+    background-color: darkslategray;
+    width: 35%;
+    height: 0.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    border-color: antiquewhite ;
+    border-width: 0.5%;
+    border-radius: 4px;
+}
+.Title{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5%;
+}
+#textArea{
+    opacity: 0.72;
+    background-image: url("screen.jpg");
+    border-style:double;
+    background-color: #bfffd0;
+    color: #024a15;
+    border-color: antiquewhite;
+    border-width: 4px;
+    border-radius: 4px;
+    display: block;
+    font-family: Helvetica;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+    padding-top: 8%;
+    height: 50%;
+    width: 92%;
+    outline: invert;
+}
+
+
+.Buttons{
+    opacity: 0.925;
+    background-image: url("blk.jpg");
+    border-radius: 10px;
+    height: 40%;
+    width: 25%;
+    background-color: black ;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 5%;
+    border-style: ridge;
+    border-color: black;
+    border-width: 3px;
+}
+
+
+#button{
+    background-image: url("whitepla.jpg");
+    background-color: whitesmoke;
+    color: darkslategray;
+    border-radius: 8px;
+    
+    
+    padding: 18px;
+    font-size: 15px;
+    font-weight: bold;
+   
+    text-align: center;
+}
+
+#Ebutton{
+
+    background-image: url("darkplas.jpg");
+    grid-row: span 3;
+    opacity: 0.7;
+    background-color: darkslategray;
+    color:antiquewhite;
+    height: 190%;
+    border-radius: 8px;
+    
+    
+}
+
+#Cbutton{
+    background-image: url("orangplas.jpg");
+    grid-column: span 2;
+    height: 250%;
+    
+    
+    color:antiquewhite;
+    border-radius: 8px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .display{
+        width: 51%;
+    }
+    .Buttons{
+        width: 50%;
+        padding-top: 1%;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .display{
+        width: 26%;
+    }
+    .Buttons{
+        width: 25%;
+        padding-top: 1%;
+        padding-bottom: 7%;
+    }
+}
